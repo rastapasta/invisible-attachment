@@ -6,12 +6,12 @@ Encode and attach any numeric value to a string by using invisible UTF8 characte
 ## Example
 
 ```js
-import { attach, parse } from 'invisible-attachment'
+const { attach, extract } = require('invisible-attachment')
 
 const attached = attach('this is an example', 1337)
 // -> this is an example﻿﻿⠀﻿﻿﻿﻿⠀
 
-const decoded = parse(attached)
+const decoded = extract(attached)
 // -> 1337
 ```
 
