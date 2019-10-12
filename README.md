@@ -15,7 +15,6 @@ const decoded = parse(attached)
 // -> 1337
 ```
 
-
 ## Usecase
 
 Attaching additional metadata to strings in systems you don't control but want to build a beautiful client for :)
