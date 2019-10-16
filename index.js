@@ -1,5 +1,5 @@
 const identifier = '\uFEFF'
-    , charset = ['\u200B', '\uFEFF', '\u2800']
+    , charset = ['\u200B', '\uFEFF']
     , errorTag = '[invisible-attachment]'
 
 const encode = number => {
