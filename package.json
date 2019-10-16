@@ -1,6 +1,6 @@
 {
   "name": "invisible-attachment",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Attach and parse an invisible encoded number to any string by using invisible UTF8 characters",
   "main": "index.js",
   "scripts": {
