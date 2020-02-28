@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/rastapasta/invisible-attachment#readme",
   "devDependencies": {
-    "mocha": "^6.2.1",
+    "mocha": "^7.1.0",
     "nyc": "^15.0.0"
   }
 }
